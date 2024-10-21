@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 
 project_name="mlproject"
 
-list_of_files=[                                                           #   CREATING PROJECT FOLDERS OR FILES
+list_of_files=[                                                      
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/components/data_ingestion.py",
@@ -23,7 +23,7 @@ list_of_files=[                                                           #   CR
     "app.py",
     "Dockerfile",
     "requirements.txt",
-    "setup.py"
+    "setup.py",
 ]
 
 for filepath in list_of_files:
