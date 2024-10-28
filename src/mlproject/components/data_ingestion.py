@@ -27,7 +27,7 @@ class DataIngestion:
 
         try:
             #df = read_sql_data()
-            df=pd.read_csv(os.path.join('notebook/data','row.csv'))
+            df=pd.read_csv(os.path.join('Notebook/Data','row.csv'))
             logging.info("reading from MYSQL")
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)   #folder making
             df.to_csv(self.ingestion_config.row_data_path,index=False,header=True)               #saving row data file 

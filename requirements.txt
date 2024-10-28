@@ -9,6 +9,6 @@ catboost
 xgboost
 mlflow
 dagshub
-sklearn
+
 
 #-e .
